@@ -1,0 +1,12 @@
+# ninja log v5
+1	14	1773003830430752401	CMakeFiles/lidar_sf20c_interface.dir/device/startup_stm32f103xb.s.obj	6c6f82f7427cbd7c
+1	21	1773003830437752737	CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj	4a39ac784c4d44db
+1	77	1773003830494755473	CMakeFiles/lidar_sf20c_interface.dir/sys/interrupts.c.obj	cec99f0ddd7337a
+1	81	1773003830497755618	CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj	f4dc6d6dfbebe5f3
+1	81	1773003830498755665	CMakeFiles/lidar_sf20c_interface.dir/drivers/mcu/usart.c.obj	9184d7c8de25b165
+2	82	1773003830498755665	CMakeFiles/lidar_sf20c_interface.dir/device/system_stm32f1xx.c.obj	2934989872956ffa
+1	84	1773003830500755762	CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj	97700f71783f513e
+1	86	1773003830503755905	CMakeFiles/lidar_sf20c_interface.dir/bsp/bsp.c.obj	d46f2b9588e4d934
+86	118	1773003830529757154	lidar_sf20c_interface	a1a8d7471cb00d3c
+1	55	1773003844958429738	CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj	f4dc6d6dfbebe5f3
+55	81	1773003844981430782	lidar_sf20c_interface	a1a8d7471cb00d3c
