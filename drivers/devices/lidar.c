@@ -15,10 +15,11 @@ static uint16_t sf_crc16_continue(uint16_t crc, const uint8_t* data, uint16_t si
         uint16_t code = crc >> 8;
         code ^= data[i];
         code ^= code >> 4;
-        crc = (crc << 8) ^ code;
-        code = (code << 5) ^ code;
+        crc = crc << 8;
         crc ^= code;
-        code = (code << 7) ^ code;
+        code = code << 5;
+        crc ^= code;
+        code = code << 7;
         crc ^= code;
     }
     return crc;

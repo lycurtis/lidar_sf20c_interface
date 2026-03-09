@@ -41,5 +41,5 @@ void sf_parser_init(sf_parse_ctx_t* p);
 bool sf_parser_feed(sf_parse_ctx_t* p, uint8_t byte);
 
 uint16_t sf_build_read_request(uint8_t cmd_id, uint8_t* buf, uint16_t buf_size);
-uint16_t sf_build_write_request(uint8_t cmd_id, const uint8_t* data, uint16_t data_len, uint8_t* buf, uint16_t buf_size) ;
+uint16_t sf_build_write_request(uint8_t cmd_id, const uint8_t* data, uint16_t data_len, uint8_t* buf, uint16_t buf_size);
 

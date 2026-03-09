@@ -1,6 +1,7 @@
 // app/main.c
 
 #include <stdio.h>
+#include <string.h>
 #include "bsp.h"
 #include "bsp_config.h"
 #include "bsp_pinmap.h"
@@ -30,37 +31,43 @@ int main(void) {
     sf_parser_init(&lidar_ctx);
 
     uint8_t tx_buf[16];
-    uint16_t len = sf_build_read_request(0, tx_buf, sizeof(tx_buf));
-
-    printf("TX packet (%u bytes): ", len);
-    for (uint16_t i = 0; i < len; i++) {
-        printf("%02X ", tx_buf[i]);
-    }
-    printf("\r\n");
+    uint16_t len;
 
     BSP_Delay_ms(1000);
+    while (usart_rx_ready(BSP_USART_LIDAR))
+        usart_read_byte(BSP_USART_LIDAR);
+
+    len = sf_build_read_request(0, tx_buf, sizeof(tx_buf));
     usart_write(BSP_USART_LIDAR, tx_buf, len);
     BSP_Delay_ms(100);
     usart_write(BSP_USART_LIDAR, tx_buf, len);
 
-    uint32_t rx_count = 0;
-
-    for (;;) {
-        while (usart_rx_ready(BSP_USART_LIDAR)) {
+    bool handshake = false;
+    while (!handshake) {
+        if (usart_rx_ready(BSP_USART_LIDAR)) {
             uint8_t b = usart_read_byte(BSP_USART_LIDAR);
-            printf("%02X ", b);
-            rx_count++;
-            if (sf_parser_feed(&lidar_ctx, b)) {
-                if (lidar_ctx.last_packet.cmd_id == 0) {
-                    printf("\r\nProduct: %.*s\r\n",
-                           lidar_ctx.last_packet.payload_len,
-                           lidar_ctx.last_packet.payload);
-                }
+            if (sf_parser_feed(&lidar_ctx, b) && lidar_ctx.last_packet.cmd_id == 0) {
+                printf("Connected: %.*s\r\n",
+                       lidar_ctx.last_packet.payload_len,
+                       lidar_ctx.last_packet.payload);
+                handshake = true;
             }
         }
+    }
 
-        printf("\r\n[RX=%lu] Sending request...\r\n", rx_count);
+    len = sf_build_read_request(44, tx_buf, sizeof(tx_buf));
+
+    for (;;) {
         usart_write(BSP_USART_LIDAR, tx_buf, len);
-        BSP_Delay_ms(500);
+        BSP_Delay_ms(100);
+
+        while (usart_rx_ready(BSP_USART_LIDAR)) {
+            uint8_t b = usart_read_byte(BSP_USART_LIDAR);
+            if (sf_parser_feed(&lidar_ctx, b) && lidar_ctx.last_packet.cmd_id == 44) {
+                int16_t dist_cm;
+                memcpy(&dist_cm, lidar_ctx.last_packet.payload, sizeof(dist_cm));
+                printf("Distance: %d cm\r\n", dist_cm);
+            }
+        }
     }
 }
