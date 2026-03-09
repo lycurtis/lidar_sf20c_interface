@@ -25,7 +25,6 @@ int main(void) {
     };
     usart_init(&debug);
 
-    printf("LiDAR interface\r\n");
 
     static sf_parse_ctx_t lidar_ctx;
     sf_parser_init(&lidar_ctx);
@@ -51,12 +50,11 @@ int main(void) {
         }
     }
 
-    len = sf_build_read_request(44, tx_buf, sizeof(tx_buf));
+    uint8_t stream_val[] = {5, 0, 0, 0};
+    len = sf_build_write_request(30, stream_val, 4, tx_buf, sizeof(tx_buf));
+    usart_write(BSP_USART_LIDAR, tx_buf, len);
 
     for (;;) {
-        usart_write(BSP_USART_LIDAR, tx_buf, len);
-        BSP_Delay_ms(100);
-
         while (usart_rx_ready(BSP_USART_LIDAR)) {
             uint8_t b = usart_read_byte(BSP_USART_LIDAR);
             if (sf_parser_feed(&lidar_ctx, b) && lidar_ctx.last_packet.cmd_id == 44) {
