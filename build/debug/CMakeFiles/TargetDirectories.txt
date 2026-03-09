@@ -1,3 +1,0 @@
-/home/cly/dev/lidar_sf20c_interface/build/debug/CMakeFiles/lidar_sf20c_interface.dir
-/home/cly/dev/lidar_sf20c_interface/build/debug/CMakeFiles/edit_cache.dir
-/home/cly/dev/lidar_sf20c_interface/build/debug/CMakeFiles/rebuild_cache.dir
