@@ -1,0 +1,25 @@
+# Build directories
+build/
+
+# CMake generated
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Generated binaries
+*.elf
+*.hex
+*.bin
+*.map
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+
+# OS
+.DS_Store
+Thumbs.db
