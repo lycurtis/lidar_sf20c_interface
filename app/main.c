@@ -33,10 +33,6 @@ int main(void) {
     uint8_t tx_buf[16];
     uint16_t len;
 
-    BSP_Delay_ms(1000);
-    while (usart_rx_ready(BSP_USART_LIDAR))
-        usart_read_byte(BSP_USART_LIDAR);
-
     len = sf_build_read_request(0, tx_buf, sizeof(tx_buf));
     usart_write(BSP_USART_LIDAR, tx_buf, len);
     BSP_Delay_ms(100);

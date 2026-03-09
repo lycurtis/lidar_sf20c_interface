@@ -31,5 +31,5 @@
 #define BSP_IRQ_PRIO_SYSTICK 0U // SysTick
 #define BSP_IRQ_PRIO_USART1 1U // LiDAR (USART2 is TX-only, no IRQ)
 
-#define BSP_USART_LIDAR_BAUD 115200U //921600U // LiDAR (preconfigured)  
+#define BSP_USART_LIDAR_BAUD 921600U //921600U // LiDAR (preconfigured)  
 #define BSP_USART_DEBUG_BAUD 115200U // Debug TX           

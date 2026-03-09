@@ -58,3 +58,9 @@
 62	89	1773037988891094121	lidar_sf20c_interface	a1a8d7471cb00d3c
 1	60	1773038160021415161	CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj	f4dc6d6dfbebe5f3
 60	87	1773038160044416774	lidar_sf20c_interface	a1a8d7471cb00d3c
+1	80	1773038549468945987	CMakeFiles/lidar_sf20c_interface.dir/bsp/bsp.c.obj	d46f2b9588e4d934
+1	87	1773038549478946470	CMakeFiles/lidar_sf20c_interface.dir/drivers/mcu/usart.c.obj	9184d7c8de25b165
+1	104	1773038549494947243	CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj	f4dc6d6dfbebe5f3
+104	143	1773038549531949031	lidar_sf20c_interface	a1a8d7471cb00d3c
+0	59	1773038816022695076	CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj	f4dc6d6dfbebe5f3
+59	86	1773038816046696049	lidar_sf20c_interface	a1a8d7471cb00d3c
