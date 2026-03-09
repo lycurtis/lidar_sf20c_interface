@@ -18,6 +18,8 @@ Archive member included to satisfy reference by file (symbol)
                               /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-findfp.o) (_fwalk_sglue)
 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-wsetup.o)
                               /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-puts.o) (__swsetup_r)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+                              CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj (memcpy)
 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
                               /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o) (__malloc_lock)
 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-makebuf.o)
@@ -129,22 +131,76 @@ Discarded input sections
  .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
  .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
  .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
  .text          0x00000000        0x0 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
  .data          0x00000000        0x0 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
  .bss           0x00000000        0x0 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
- .debug_info    0x00000000       0x69 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
- .debug_abbrev  0x00000000       0x28 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
- .debug_aranges
+ .text.sf_crc16_continue
+                0x00000000       0x3c CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .text.sf_build_packet
+                0x00000000       0x64 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .text.sf_parser_init
+                0x00000000        0xe CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .text.sf_parser_feed
+                0x00000000       0xf0 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .text.sf_build_read_request
                 0x00000000       0x18 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
- .debug_macro   0x00000000       0x27 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .text.sf_build_write_request
+                0x00000000       0x1a CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_info    0x00000000      0x6cb CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_abbrev  0x00000000      0x235 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_loclists
+                0x00000000      0x418 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_aranges
+                0x00000000       0x48 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_rnglists
+                0x00000000       0x32 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000      0x10c CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
  .debug_macro   0x00000000      0xac6 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
  .debug_macro   0x00000000       0x22 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
  .debug_macro   0x00000000      0x34e CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
- .debug_line    0x00000000       0xaa CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
- .debug_str     0x00000000     0x38f5 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000       0x60 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000       0x24 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000       0x94 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000      0x190 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000      0x370 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000       0x4a CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000       0x52 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000      0x1de CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_line    0x00000000      0x4fa CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_str     0x00000000     0x6b88 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
  .comment       0x00000000       0x27 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .debug_frame   0x00000000       0xc0 CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
  .ARM.attributes
                 0x00000000       0x2d CMakeFiles/lidar_sf20c_interface.dir/drivers/devices/lidar.c.obj
+ .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
  .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
  .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
  .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
@@ -183,6 +239,20 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
  .debug_macro   0x00000000      0xac6 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00000000       0x60 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00000000       0x24 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00000000       0x94 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00000000      0x370 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00000000       0x4a CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00000000       0x52 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00000000      0x1de CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
  .debug_macro   0x00000000       0x4c CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
  .debug_macro   0x00000000       0x22 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
  .debug_macro   0x00000000      0x34e CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
@@ -193,6 +263,7 @@ Discarded input sections
  .debug_macro   0x00000000     0xe09e CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
  .debug_macro   0x00000000       0x52 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
  .debug_macro   0x00000000       0x22 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
  .debug_macro   0x00000000       0x2e CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
  .debug_macro   0x00000000       0x6d CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
  .group         0x00000000        0xc CMakeFiles/lidar_sf20c_interface.dir/sys/interrupts.c.obj
@@ -274,6 +345,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x3c CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
  .debug_macro   0x00000000       0x34 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
  .debug_macro   0x00000000       0x57 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x00000000      0x190 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
  .debug_macro   0x00000000      0x370 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
  .debug_macro   0x00000000       0x16 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
  .debug_macro   0x00000000       0x4a CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
@@ -281,6 +353,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
  .debug_macro   0x00000000       0x52 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
  .debug_macro   0x00000000      0x1de CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
  .debug_macro   0x00000000       0x22 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
  .debug_macro   0x00000000      0x34e CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
@@ -341,6 +414,22 @@ Discarded input sections
  .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-fwalk.o)
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-wsetup.o)
  .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-wsetup.o)
+ .text          0x00000000       0xec /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .ARM.extab     0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .ARM.exidx     0x00000000        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .debug_line    0x00000000       0xbd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .debug_line_str
+                0x00000000       0x95 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .debug_info    0x00000000       0x33 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .debug_abbrev  0x00000000       0x28 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .debug_aranges
+                0x00000000       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .debug_str     0x00000000       0xa8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .eh_frame      0x00000000       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .ARM.attributes
+                0x00000000       0x1b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
  .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-makebuf.o)
@@ -717,48 +806,48 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtn.o
 .iplt           0x0800106c        0x0
  .iplt          0x0800106c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x0800106c       0x30
+.rodata         0x0800106c       0x2c
                 0x0800106c                        . = ALIGN (0x4)
  *(.rodata)
  .rodata        0x0800106c       0x18 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
  *(.rodata*)
  .rodata.main.str1.4
-                0x08001084       0x17 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
-                0x0800109c                        . = ALIGN (0x4)
- *fill*         0x0800109b        0x1 
+                0x08001084       0x11 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+                0x08001098                        . = ALIGN (0x4)
+ *fill*         0x08001095        0x3 
 
-.rel.dyn        0x0800109c        0x0
- .rel.iplt      0x0800109c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x08001098        0x0
+ .rel.iplt      0x08001098        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0800109c        0x0
-                0x0800109c                        __exidx_start = .
+.ARM            0x08001098        0x0
+                0x08001098                        __exidx_start = .
  *(.ARM.exidx*)
-                0x0800109c                        __exidx_end = .
+                0x08001098                        __exidx_end = .
 
-.preinit_array  0x0800109c        0x0
-                0x0800109c                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08001098        0x0
+                0x08001098                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0800109c                        PROVIDE (__preinit_array_end = .)
+                0x08001098                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0800109c        0x4
-                0x0800109c                        PROVIDE (__init_array_start = .)
+.init_array     0x08001098        0x4
+                0x08001098                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0800109c        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
-                0x080010a0                        PROVIDE (__init_array_end = .)
+ .init_array    0x08001098        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+                0x0800109c                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x080010a0        0x4
-                0x080010a0                        PROVIDE (__fini_array_start = .)
+.fini_array     0x0800109c        0x4
+                0x0800109c                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x080010a0        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
-                0x080010a4                        PROVIDE (__fini_array_end = .)
-                0x080010a4                        _sidata = LOADADDR (.data)
+ .fini_array    0x0800109c        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+                0x080010a0                        PROVIDE (__fini_array_end = .)
+                0x080010a0                        _sidata = LOADADDR (.data)
 
-.data           0x20000000       0x5c load address 0x080010a4
+.data           0x20000000       0x5c load address 0x080010a0
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -772,17 +861,17 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtn.o
                 0x2000005c                        _edata = .
 
 .tm_clone_table
-                0x2000005c        0x0 load address 0x08001100
+                0x2000005c        0x0 load address 0x080010fc
  .tm_clone_table
                 0x2000005c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
  .tm_clone_table
                 0x2000005c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtend.o
 
-.igot.plt       0x2000005c        0x0 load address 0x08001100
+.igot.plt       0x2000005c        0x0 load address 0x080010fc
  .igot.plt      0x2000005c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
                 0x2000005c                        . = ALIGN (0x4)
 
-.bss            0x2000005c      0x570 load address 0x08001100
+.bss            0x2000005c      0x570 load address 0x080010fc
                 0x2000005c                        _sbss = .
                 0x2000005c                        __bss_start__ = _sbss
  *(.bss)
@@ -808,7 +897,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtn.o
                 0x200005cc                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200005cc      0x604 load address 0x08001100
+                0x200005cc      0x604 load address 0x080010fc
                 0x200005d0                        . = ALIGN (0x8)
  *fill*         0x200005cc        0x4 
                 [!provide]                        PROVIDE (end = .)
@@ -932,36 +1021,36 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/libgcc.a
  .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-writer.o)
  .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtend.o
 
-.debug_info     0x00000000     0xca0a
+.debug_info     0x00000000     0xca11
  .debug_info    0x00000000      0x4ab CMakeFiles/lidar_sf20c_interface.dir/bsp/bsp.c.obj
  .debug_info    0x000004ab      0x921 CMakeFiles/lidar_sf20c_interface.dir/drivers/mcu/usart.c.obj
- .debug_info    0x00000dcc      0x1ec CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_info    0x00000fb8       0xf1 CMakeFiles/lidar_sf20c_interface.dir/sys/interrupts.c.obj
- .debug_info    0x000010a9      0x542 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_info    0x000015eb       0x30 CMakeFiles/lidar_sf20c_interface.dir/device/startup_stm32f103xb.s.obj
- .debug_info    0x0000161b      0x210 CMakeFiles/lidar_sf20c_interface.dir/device/system_stm32f1xx.c.obj
- .debug_info    0x0000182b      0x10b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
- .debug_info    0x00001936      0x905 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-puts.o)
- .debug_info    0x0000223b      0xe8c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-findfp.o)
- .debug_info    0x000030c7      0x135 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
- .debug_info    0x000031fc      0xa30 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-fflush.o)
- .debug_info    0x00003c2c      0x9b6 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
- .debug_info    0x000045e2      0x87f /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
- .debug_info    0x00004e61      0x7c8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-fwalk.o)
- .debug_info    0x00005629      0x7b1 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-wsetup.o)
- .debug_info    0x00005dda      0x71c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
- .debug_info    0x000064f6      0xbe6 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-makebuf.o)
- .debug_info    0x000070dc      0x752 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-isattyr.o)
- .debug_info    0x0000782e      0x863 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-wbuf.o)
- .debug_info    0x00008091      0x778 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
- .debug_info    0x00008809      0xa80 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-stdio.o)
- .debug_info    0x00009289      0x70b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-impure.o)
- .debug_info    0x00009994      0x752 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-closer.o)
- .debug_info    0x0000a0e6      0x7b5 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-readr.o)
- .debug_info    0x0000a89b      0x89f /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
- .debug_info    0x0000b13a      0x977 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-fstatr.o)
- .debug_info    0x0000bab1      0x79e /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-lseekr.o)
- .debug_info    0x0000c24f      0x7bb /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-writer.o)
+ .debug_info    0x00000dcc      0x1f3 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_info    0x00000fbf       0xf1 CMakeFiles/lidar_sf20c_interface.dir/sys/interrupts.c.obj
+ .debug_info    0x000010b0      0x542 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_info    0x000015f2       0x30 CMakeFiles/lidar_sf20c_interface.dir/device/startup_stm32f103xb.s.obj
+ .debug_info    0x00001622      0x210 CMakeFiles/lidar_sf20c_interface.dir/device/system_stm32f1xx.c.obj
+ .debug_info    0x00001832      0x10b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
+ .debug_info    0x0000193d      0x905 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-puts.o)
+ .debug_info    0x00002242      0xe8c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-findfp.o)
+ .debug_info    0x000030ce      0x135 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_info    0x00003203      0xa30 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-fflush.o)
+ .debug_info    0x00003c33      0x9b6 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+ .debug_info    0x000045e9      0x87f /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+ .debug_info    0x00004e68      0x7c8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-fwalk.o)
+ .debug_info    0x00005630      0x7b1 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-wsetup.o)
+ .debug_info    0x00005de1      0x71c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
+ .debug_info    0x000064fd      0xbe6 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-makebuf.o)
+ .debug_info    0x000070e3      0x752 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-isattyr.o)
+ .debug_info    0x00007835      0x863 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-wbuf.o)
+ .debug_info    0x00008098      0x778 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
+ .debug_info    0x00008810      0xa80 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-stdio.o)
+ .debug_info    0x00009290      0x70b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-impure.o)
+ .debug_info    0x0000999b      0x752 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-closer.o)
+ .debug_info    0x0000a0ed      0x7b5 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-readr.o)
+ .debug_info    0x0000a8a2      0x89f /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
+ .debug_info    0x0000b141      0x977 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-fstatr.o)
+ .debug_info    0x0000bab8      0x79e /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-lseekr.o)
+ .debug_info    0x0000c256      0x7bb /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-writer.o)
 
 .debug_abbrev   0x00000000     0x3478
  .debug_abbrev  0x00000000      0x1d6 CMakeFiles/lidar_sf20c_interface.dir/bsp/bsp.c.obj
@@ -1138,7 +1227,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/libgcc.a
  .debug_rnglists
                 0x0000029e       0x1b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-wbuf.o)
 
-.debug_macro    0x00000000    0x1185d
+.debug_macro    0x00000000    0x10e51
  .debug_macro   0x00000000       0x7a CMakeFiles/lidar_sf20c_interface.dir/bsp/bsp.c.obj
  .debug_macro   0x0000007a      0xac6 CMakeFiles/lidar_sf20c_interface.dir/bsp/bsp.c.obj
  .debug_macro   0x00000b40       0x4c CMakeFiles/lidar_sf20c_interface.dir/bsp/bsp.c.obj
@@ -1154,50 +1243,34 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/libgcc.a
  .debug_macro   0x0000ff06       0x22 CMakeFiles/lidar_sf20c_interface.dir/drivers/mcu/usart.c.obj
  .debug_macro   0x0000ff28       0x2e CMakeFiles/lidar_sf20c_interface.dir/drivers/mcu/usart.c.obj
  .debug_macro   0x0000ff56       0x6d CMakeFiles/lidar_sf20c_interface.dir/drivers/mcu/usart.c.obj
- .debug_macro   0x0000ffc3      0x18d CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x00010150       0x22 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x00010172       0x60 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x000101d2       0x24 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x000101f6       0x94 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x0001028a       0x3c CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x000102c6       0x34 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x000102fa       0x16 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x00010310       0x57 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x00010367       0x9e CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x00010405      0x370 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x00010775      0x112 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x00010887       0x10 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x00010897       0x16 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x000108ad       0x4a CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x000108f7       0x34 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x0001092b       0x10 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x0001093b       0x52 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x0001098d      0x1de CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x00010b6b       0x16 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x00010b81       0x16 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x00010b97      0x170 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_macro   0x00010d07       0x73 CMakeFiles/lidar_sf20c_interface.dir/sys/interrupts.c.obj
- .debug_macro   0x00010d7a      0x221 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x00010f9b      0x190 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x0001112b       0x10 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x0001113b       0x3c CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x00011177       0x10 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x00011187       0x10 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x00011197       0x10 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x000111a7       0x6a CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x00011211       0x1c CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x0001122d       0x52 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x0001127f       0x22 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x000112a1       0x10 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x000112b1       0x52 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x00011303       0xcf CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x000113d2       0x1c CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x000113ee       0x3d CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x0001142b       0x35 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x00011460      0x12c CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x0001158c       0x10 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x0001159c      0x242 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_macro   0x000117de       0x7f CMakeFiles/lidar_sf20c_interface.dir/device/system_stm32f1xx.c.obj
+ .debug_macro   0x0000ffc3      0x192 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00010155       0x16 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x0001016b       0x9e CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00010209      0x112 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x0001031b       0x10 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x0001032b       0x16 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00010341       0x16 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x00010357      0x170 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_macro   0x000104c7       0x73 CMakeFiles/lidar_sf20c_interface.dir/sys/interrupts.c.obj
+ .debug_macro   0x0001053a      0x221 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x0001075b       0x10 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x0001076b       0x10 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x0001077b       0x10 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x0001078b       0x10 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x0001079b       0x6a CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x00010805       0x1c CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x00010821       0x52 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x00010873       0x22 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x00010895       0x10 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x000108a5       0x52 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x000108f7       0xcf CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x000109c6       0x1c CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x000109e2       0x3d CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x00010a1f       0x35 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x00010a54      0x12c CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x00010b80       0x10 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x00010b90      0x242 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_macro   0x00010dd2       0x7f CMakeFiles/lidar_sf20c_interface.dir/device/system_stm32f1xx.c.obj
 
 .debug_line     0x00000000     0x48fb
  .debug_line    0x00000000      0x3a8 CMakeFiles/lidar_sf20c_interface.dir/bsp/bsp.c.obj
@@ -1230,37 +1303,37 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/libgcc.a
  .debug_line    0x000045c1      0x19d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-lseekr.o)
  .debug_line    0x0000475e      0x19d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-writer.o)
 
-.debug_str      0x00000000    0x5a5dd
- .debug_str     0x00000000    0x5a5dd CMakeFiles/lidar_sf20c_interface.dir/bsp/bsp.c.obj
+.debug_str      0x00000000    0x5a605
+ .debug_str     0x00000000    0x5a605 CMakeFiles/lidar_sf20c_interface.dir/bsp/bsp.c.obj
                               0x54253 (size before relaxing)
- .debug_str     0x0005a5dd    0x54bce CMakeFiles/lidar_sf20c_interface.dir/drivers/mcu/usart.c.obj
- .debug_str     0x0005a5dd    0x57ff3 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
- .debug_str     0x0005a5dd    0x54554 CMakeFiles/lidar_sf20c_interface.dir/sys/interrupts.c.obj
- .debug_str     0x0005a5dd    0x58d66 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
- .debug_str     0x0005a5dd       0x8b CMakeFiles/lidar_sf20c_interface.dir/device/startup_stm32f103xb.s.obj
- .debug_str     0x0005a5dd    0x545b8 CMakeFiles/lidar_sf20c_interface.dir/device/system_stm32f1xx.c.obj
- .debug_str     0x0005a5dd      0x1f2 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
- .debug_str     0x0005a5dd      0x4fb /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-puts.o)
- .debug_str     0x0005a5dd      0x6b7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-findfp.o)
- .debug_str     0x0005a5dd      0x1a5 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
- .debug_str     0x0005a5dd      0x53b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-fflush.o)
- .debug_str     0x0005a5dd      0x595 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
- .debug_str     0x0005a5dd      0x534 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
- .debug_str     0x0005a5dd      0x4c4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-fwalk.o)
- .debug_str     0x0005a5dd      0x4e5 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-wsetup.o)
- .debug_str     0x0005a5dd      0x4d2 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
- .debug_str     0x0005a5dd      0x647 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-makebuf.o)
- .debug_str     0x0005a5dd      0x4b4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-isattyr.o)
- .debug_str     0x0005a5dd      0x4ea /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-wbuf.o)
- .debug_str     0x0005a5dd      0x4bd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
- .debug_str     0x0005a5dd      0x521 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-stdio.o)
- .debug_str     0x0005a5dd      0x4b4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-impure.o)
- .debug_str     0x0005a5dd      0x4aa /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-closer.o)
- .debug_str     0x0005a5dd      0x4b8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-readr.o)
- .debug_str     0x0005a5dd      0x4d3 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
- .debug_str     0x0005a5dd      0x5fc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-fstatr.o)
- .debug_str     0x0005a5dd      0x4b8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-lseekr.o)
- .debug_str     0x0005a5dd      0x4ba /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-writer.o)
+ .debug_str     0x0005a605    0x54bce CMakeFiles/lidar_sf20c_interface.dir/drivers/mcu/usart.c.obj
+ .debug_str     0x0005a605    0x58021 CMakeFiles/lidar_sf20c_interface.dir/app/main.c.obj
+ .debug_str     0x0005a605    0x54554 CMakeFiles/lidar_sf20c_interface.dir/sys/interrupts.c.obj
+ .debug_str     0x0005a605    0x58d66 CMakeFiles/lidar_sf20c_interface.dir/sys/syscall.c.obj
+ .debug_str     0x0005a605       0x8b CMakeFiles/lidar_sf20c_interface.dir/device/startup_stm32f103xb.s.obj
+ .debug_str     0x0005a605    0x545b8 CMakeFiles/lidar_sf20c_interface.dir/device/system_stm32f1xx.c.obj
+ .debug_str     0x0005a605      0x1f2 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
+ .debug_str     0x0005a605      0x4fb /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-puts.o)
+ .debug_str     0x0005a605      0x6b7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-findfp.o)
+ .debug_str     0x0005a605      0x1a5 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_str     0x0005a605      0x53b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-fflush.o)
+ .debug_str     0x0005a605      0x595 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+ .debug_str     0x0005a605      0x534 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+ .debug_str     0x0005a605      0x4c4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-fwalk.o)
+ .debug_str     0x0005a605      0x4e5 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-wsetup.o)
+ .debug_str     0x0005a605      0x4d2 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
+ .debug_str     0x0005a605      0x647 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-makebuf.o)
+ .debug_str     0x0005a605      0x4b4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-isattyr.o)
+ .debug_str     0x0005a605      0x4ea /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-wbuf.o)
+ .debug_str     0x0005a605      0x4bd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
+ .debug_str     0x0005a605      0x521 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-stdio.o)
+ .debug_str     0x0005a605      0x4b4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-impure.o)
+ .debug_str     0x0005a605      0x4aa /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-closer.o)
+ .debug_str     0x0005a605      0x4b8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-readr.o)
+ .debug_str     0x0005a605      0x4d3 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
+ .debug_str     0x0005a605      0x5fc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-fstatr.o)
+ .debug_str     0x0005a605      0x4b8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-lseekr.o)
+ .debug_str     0x0005a605      0x4ba /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-writer.o)
 
 .debug_frame    0x00000000      0x8a4
  .debug_frame   0x00000000       0xa0 CMakeFiles/lidar_sf20c_interface.dir/bsp/bsp.c.obj
